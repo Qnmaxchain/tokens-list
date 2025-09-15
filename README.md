@@ -19,7 +19,7 @@ cd tokens-list
 
 ### Step 3: Add Your Token
 
-Edit the `tokens-info.json` file and add your token information:
+Edit the `tokens.json` file and add your token information:
 
 ```json
 {
