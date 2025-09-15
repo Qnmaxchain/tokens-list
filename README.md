@@ -12,16 +12,16 @@ Thank you for your interest in adding your token to the official QNMAX token lis
 
 ### Step 2: Clone Your Fork
 
-\`\`\`bash
+```bash
 git clone https://github.com/YOUR_USERNAME/tokens-list.git
 cd tokens-list
-\`\`\`
+```
 
 ### Step 3: Add Your Token
 
 Edit the `tokens-info.json` file and add your token information:
 
-\`\`\`json
+```json
 {
   "name": "QNMAX Token List",
   "version": {
@@ -41,7 +41,7 @@ Edit the `tokens-info.json` file and add your token information:
     }
   ]
 }
-\`\`\`
+```
 
 ### Step 4: Token Requirements
 
@@ -79,11 +79,11 @@ Your token logo should:
 ### Step 6: Submit Your Pull Request
 
 1. **Commit your changes**
-   \`\`\`bash
+   ```bash
    git add tokens-info.json
    git commit -m "Add [TOKEN_SYMBOL] token"
    git push origin main
-   \`\`\`
+   ```
 
 2. **Create Pull Request**
    - Go to your forked repository on GitHub
@@ -91,7 +91,7 @@ Your token logo should:
    - Fill out the PR template with required information
 
 3. **PR Template**
-   \`\`\`markdown
+   ```markdown
    ## Token Addition Request
    
    **Token Information:**
@@ -114,7 +114,7 @@ Your token logo should:
    
    **Additional Information:**
    Brief description of your project and token utility.
-   \`\`\`
+   ```
 
 ### Step 7: Review Process
 
@@ -175,7 +175,7 @@ To update your token information:
 
 ## Example Token Entry
 
-\`\`\`json
+```json
 {
   "address": "0x1234567890123456789012345678901234567890",
   "symbol": "EXAMPLE",
@@ -184,6 +184,6 @@ To update your token information:
   "chainId": 265,
   "logoURI": "https://example.com/logo.png"
 }
-\`\`\`
+```
 
 Thank you for contributing to the QNMAX ecosystem! 🚀
