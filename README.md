@@ -13,7 +13,7 @@ Thank you for your interest in adding your token to the official QNMAX token lis
 ### Step 2: Clone Your Fork
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/tokens-list.git
+git clone https://github.com/qnmaxchain/tokens-list.git
 cd tokens-list
 ```
 
